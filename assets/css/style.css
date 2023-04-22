@@ -1,0 +1,356 @@
+#div-navbar-id {
+  background-color: black;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 0px !important;
+}
+#div-navbar-id a {
+  color: white !important;
+}
+
+#header {
+  background-image: url("../imgs/bg-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header {
+  display: flex;
+  width: 100%;
+  height: 630px;
+}
+
+#title-div-header {
+  width: 616px;
+  height: 246px;
+  padding-top: 150px;
+  color: white;
+  margin-left: 486px;
+  text-align: right;
+}
+
+h1 {
+  font-weight: bold !important;
+  font-size: 50px !important;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+#btn-trabajos-header {
+  border-color: #17a2b8;
+  color: white;
+  width: 99px;
+  height: 40px;
+}
+
+#btn-contacto-header {
+  color: white;
+  background-color: #17a2b8 !important;
+  width: 99px;
+  height: 40px;
+}
+.div-button-header {
+  margin-top: 30px;
+}
+
+.section-acerca-demi {
+  width: 100%;
+  height: 533px;
+  display: flex;
+  background-color: #ffffff;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 170px;
+  padding-right: 170px;
+}
+
+#h1-section-acerca-demi {
+  margin-top: 66px;
+}
+
+#h4-section-acerca-demi {
+  padding-left: 170px;
+  padding-right: 170px;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 16px;
+}
+
+.icons-section-acerca-demi {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+i {
+  font-size: 54px;
+}
+
+.div-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 15px;
+}
+
+.font-align-center {
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 30px !important;
+}
+
+span {
+  font-size: 54px;
+  padding-bottom: 22px;
+}
+
+#section-mis-trabajos {
+  height: 690px;
+  background-color: #17a2b8;
+  display: flex;
+  flex-direction: column;
+}
+
+.div-card-section-tres {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* padding-right: 10px; */
+  padding-left: 10px;
+  margin-top: 20px;
+}
+
+#title-section-mis-trabajos {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  margin-top: 74px !important;
+  margin-bottom: 30px !important;
+}
+
+#navbarTogglerDemo03 {
+  display: flex !important;
+}
+
+.card-size {
+  height: 232px;
+}
+
+.text-card {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+#card-text {
+  border-color: #17a2b8;
+  color: #17a2b8;
+  width: 99px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.text-description-card {
+  font-size: 16px;
+  color: #373a3c !important;
+  margin-bottom: 40px !important;
+}
+
+h5 {
+  margin-bottom: 20px !important;
+}
+
+.padding-card {
+  padding-left: 10px !important;
+}
+
+#section-contactame {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: black;
+  padding-left: 170px;
+  padding-right: 170px;
+}
+
+footer {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100% !important;
+  height: 74px !important;
+  background-color: black !important;
+  color: white !important;
+}
+
+.title-footer {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.sub-title-footer {
+  margin-top: 16px !important;
+  text-align: center;
+  margin-bottom: 16px !important;
+  font-weight: 100;
+}
+
+.div-footer-button {
+  display: flex;
+  justify-content: right;
+  width: 100%;
+}
+
+#btn-enviar-footer {
+  margin-top: 25px;
+  border-color: #17a2b8 !important;
+  background-color: #17a2b8 !important;
+  color: white !important;
+  width: 99px !important;
+  height: 40px !important;
+}
+
+#row-maxWidth {
+  width: 100vw !important;
+}
+
+.col {
+  padding: 0px !important;
+}
+
+#div-main {
+  width: 100vw !important;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.card-comida {
+  width: 387px !important;
+}
+
+/* Estilos para celulares */
+@media only screen and (max-width: 600px) {
+  #title-div-header {
+    width: 100% !important;
+    height: 100% !important;
+    padding: 20px;
+    color: white;
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  header {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 40px !important;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #row-maxWidth {
+    width: 100vw !important;
+    margin: 0px;
+    width: 100%;
+  }
+
+  #navbarTogglerDemo03 {
+    display: none !important;
+  }
+
+  #button-burger {
+    height: 50px !important;
+    width: 50px !important;
+    border-color: white !important;
+    color: white !important;
+  }
+
+  #span-burger {
+    height: 30px !important;
+    width: 30px !important;
+    color: white !important;
+    background-color: #000000; /* Cambia #ff0000 al color que desees */
+  }
+
+  #title-section-uno {
+    text-align: right;
+    margin-top: 93px;
+    margin-bottom: 30px;
+  }
+
+  #btn-trabajos-header {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  #btn-contacto-header {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  #header {
+    height: 608px;
+  }
+
+  .div-button-header {
+    justify-content: right;
+    margin-top: 30px;
+    display: flex;
+  }
+
+  .section-acerca-demi {
+    height: 1160px;
+    padding: 20px;
+  }
+
+  #h4-section-acerca-demi {
+    padding: 0px;
+  }
+
+  .icons-section-acerca-demi {
+    flex-direction: column;
+  }
+
+  h2 {
+    font-weight: bold !important;
+  }
+
+  .div-icon {
+    margin-bottom: 50px !important;
+  }
+
+  .div-card-section-tres {
+    flex-direction: column;
+    padding-left: 18px;
+  }
+  .card-comida {
+    width: 340px !important;
+    margin-bottom: 79px !important;
+  }
+
+  #section-mis-trabajos {
+    height: 1860px;
+  }
+
+  #section-contactame {
+    height: 650px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  footer h4{
+    text-align: center;
+  }
+}
